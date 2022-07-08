@@ -1,0 +1,91 @@
+#Dic{
+  height: auto;
+  width: 100%;
+  padding: 10px 5px;
+  background: transparent;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}
+
+.Card{
+  background: #DBDBDB;
+  box-shadow: inset 0px 0px 15px #00000020;
+  border-radius: 5px;
+  margin: 10px;
+  width: 80%;
+  max-width: 310px;
+  padding: 10px;
+  min-width: 305px;
+  height: 180px;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: flex-start;
+  position: relative;
+  overflow: hidden;
+  transition: .3s ease-in-out !important;
+}
+
+.Card:hover{
+  height: 320px;
+}
+
+.Card img{
+  height: 80px;
+  width: 80px;
+  margin: 15px 0px;
+  border-radius: 5px;
+}
+
+.Card h3{
+  font-family: konexy;
+  font-size: 1rem;
+  letter-spacing: 2px;
+  text-align: center;
+  margin: 5px 10px;
+}
+
+.Card p{
+  background: transparent;
+  padding: 15px 5px 10px 5px;
+  text-align: center;
+  letter-spacing: 1.5px;
+  word-spacing: 2px;
+  font-weight: 0;
+  text-shadow: 0px 0px 3px #00000050;
+  font-family: montse;
+  font-size: .8rem;
+  color: #000000;
+  margin: 20px 0px;
+  transition: .3s ease-in-out !important;
+}
+
+.Card:hover p{
+  margin: 0px 0px;
+}
+
+.Card a{
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+  background: var(--colorFirst);
+  width: 100px;
+  height: 30px;
+  font-family: konexy;
+  text-decoration: none;
+  border-radius: 20px;
+  text-align: center;
+  color: #FFFFFF;
+  letter-spacing: 3px;
+  font-size: 1rem;
+  transform: translate(-50%,-10%);
+  padding: 5px 0px;
+  transition: .3s !important;
+}
+
+.Card a:hover{
+  background: var(--colorSecond)
+}

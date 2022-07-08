@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Andrey desenvolvedor</title>
+  <link rel="stylesheet" href="./css/Base.css">
+  <link rel="stylesheet" href="./css/Sobre.css">
+  <link rel="stylesheet" href="./css/Aba.css">
+  <link rel="stylesheet" href="./css/Projetos.css">
+  <link rel="stylesheet" href="./css/Formulario.css">
+  <link rel="stylesheet" href="./css/Window.css">
+  <script src="https://cdn.jsdelivr.net/npm/js-cookie@3.0.1/dist/js.cookie.min.js" ></script>
+</head>
+<body>
+  
+  <header>
+    <article><span id="Logo-Nome">eyx</span></article>
+    <article><span id="tempo">00:00:00</span></article>
+    <article><button type="submit" id="open">×</button></article>
+  </header>
+  
+  <section id="Aba">
+    
+    <a href="#Sobre" class="Navs" onclick="Off()">
+      <img src="./img/Sobre.png" alt="">
+    </a>
+    
+    <a href="#Projetos" class="Navs" onclick="Off()">
+      <img src="./img/Mala.png" alt="">
+    </a>
+    
+    <a href="#Formulario" class="Navs" onclick="Off()">
+      <img src="./img/Contatar.png" alt="">
+    </a>
+    
+  </section>
+  
+  <section id="Sobre">
+    <main>
+      <article id="Sobre-Servico">
+        
+        <p>Ola meu nome é</p>
+        <h3>Andrey de Araujo</h3>
+        <p id="AnimadoCodigo">Eu sou</p>
+        
+      </article>
+      
+      <article id="Link">
+        
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        
+      </article>
+      
+      <article id="Sobre-Mim">
+        
+        <h3 class="after">titulo</h3>
+        
+        <p>Prazer meu nome é Andrey de Araujo Oliveira, tenho 16 anos, nasci em Sp e continuo morando, tenho muita curiosidade em descobrir e estudar o universo do Front-end e seja bem vindo no meu portfolio.</p>
+        
+      </article>
+      
+    </main>
+  </section>
+  
+  <section id="Projetos">
+    
+    <article class="box-projeto">
+      <h3>Jogo da cobrinha</h3>
+      <p>jogo simples da cobrinha.</p>
+      <a href="./Projetos/projeto 1/index.html" target="_blank">ver</a>
+    </article>
+    
+    <article class="box-projeto">
+      <h3>Relógio diferente.</h3>
+      <p>Relogio diferente que você jamais viu.</p>
+      <a href="./Projetos/projeto 2/index.html" target="_blank">ver</a>
+    </article>
+ 
+     <article class="box-projeto">
+       <h3>Lista de desejos.</h3>
+       <p>Lista de desejos com interação.</p>
+       <a href="./Projetos/projeto 3/index.html" target="_blank">ver</a>
+     </article>
+
+    <article class="box-projeto">
+      <h3>Cotadora de moeda.</h3>
+      <p>Cotadora de moeda com alguns países.</p>
+      <a href="./Projetos/projeto 4/index.html" target="_blank">ver</a>
+    </article>
+
+  </section>
+  
+  <section id="Formulario">
+    <form action="" method="get">
+      
+      <input type="text" name="Nome" id="Nome" placeholder="Nome">
+      
+      <input type="email" name="Email" id="Email" placeholder="Email">
+      
+      <input type="tel" name="Tell" id="Tell" placeholder="Telefone">
+      
+      <textarea name="Comentario" id="Comentario" cols="35" rows="9" placeholder="Contatar"></textarea>
+      
+      <button type="submit">Enviar</button>
+
+    </form>
+  </section>
+  
+  <section id="Window">
+  </section>
+  
+  <script src="./js/Tempo.js"></script>
+  <script src="./js/AnimarCodigo.js"></script>
+  <script src="./js/Aba.js"></script>
+  <script src="./js/Header.js"></script>
+  <script src="./js/Confirm.js" type="module"></script>
+  <script src="./js/Alert.js" type="module"></script>
+  <script src="./js/Prompt.js" type="module"></script>
+  <script src="./js/Cookie.js" type="module"></script>
+</body>
+</html>

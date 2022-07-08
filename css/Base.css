@@ -1,0 +1,165 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  outline: none;
+}
+
+::selection{
+  background: #FFFFFF20;
+  padding: 5px 10px;
+}
+
+html , body {
+  height: 100vh;
+  width: 100%;
+}
+
+html{
+  overflow: scroll !important;
+  scroll-behavior: smooth;
+  scroll-padding-top: 60px;
+  background: url("../img/moon.jpg");
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+body{
+  height: auto;
+}
+
+body header{
+  height: 60px;
+  width: 100%;
+  background: #FFFFFF;
+  box-shadow: 0px 6px 8px #00000020;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 10px;
+  z-index: 2;
+  overflow: hidden;
+}
+
+body header article{
+  height: 40px;
+  width: 120px;
+  background: transparent;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: center;
+  zoom: 1.2;
+}
+
+#Logo-Nome{
+  font-family: konexy;
+  letter-spacing: 2px;
+  text-transform: capitalize;
+  color: #FFFFFF;
+  text-shadow: 0px 0px 4px #00000050,0px 0px 4px #00000050,0px 0px 7px #00000020;
+  background: transparent;
+  transform: translate(-27.5px,0%);
+}
+
+#Logo-Nome:after{
+  content: "()";
+  font-size: 1rem;
+  letter-spacing: 4px;
+  color: #45AC8C;;
+}
+
+#tempo{
+  font-family: konexy;
+  letter-spacing: 2px;
+  font-size: .8rem;
+  border: 2px solid #161529;
+  text-align: center;
+  color: #161529;
+  height: 80%;
+  width: 95%;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: center;
+  border-radius: 1px;
+  min-width: 120px;
+}
+
+#open{
+  font-family: basic;
+  font-weight: 500;
+  color: #161529;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  transform:  translate(45px,0%);
+  border: none;
+  background: transparent;
+  transition: .3s !important;
+}
+
+.after:before{
+  content: "";
+  height: 6px;
+  width: 6px;
+  display: inline-block;
+  background: #45AC8C;
+  margin: 0px 7px 3px 0px;
+}
+
+@media(max-width: 480px){
+#Logo-Nome{
+  zoom: .65;
+}
+
+#tempo{
+  zoom: .65;
+}
+
+#open{
+  zoom: .65;
+}
+}
+
+@media(min-width: 1024px){
+#Logo-Nome {
+  zoom: 1;
+}
+
+#tempo {
+  zoom: 1;
+}
+
+#open {
+  zoom: 1;
+}
+}
+
+
+@font-face {
+  font-family: "basic";
+  src: url("./../fontes/basic.woff");
+}
+
+@font-face {
+  font-family: "konexy";
+  src: url("./../fontes/konexy.woff");
+}
+
+@font-face {
+  font-family: "montse";
+  src: url("./../fontes/montse.woff");
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');

@@ -1,0 +1,66 @@
+*{
+  padding: 0px;
+  background: transparent;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+:root {
+  --colorFirst: #161529;
+  --colorSecond: #45AC8C;
+}
+
+html , body {
+  height: 100%;
+  width: 100%;
+  background: var(--colorFirst);
+}
+
+body{
+  padding: 50px 0px 0px 0px;
+  position: relative;
+}
+
+header{
+  height: 50px;
+  width: 100%;
+  background: transparent;
+  backdrop-filter: blur(8px);
+  z-index: 4;
+  position: fixed;
+  left: 0px;
+  display: flex;
+  padding: 0px 16px;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  border-radius: 0px 0px 10px 10px;
+  top: 0px;
+  box-shadow: 0px 5px 8px #00000030;
+}
+
+header h3{
+  color: #FFFFFF;
+  letter-spacing: 3px;
+  font-family: konexy;
+  text-shadow: 0px 0px 5px #000000;
+  margin: 0px;
+}
+
+header h3:after{
+  content: "()";
+  margin: 0px 2px;
+  letter-spacing: 5px;
+  color: var(--colorSecond);
+}
+
+@font-face {
+  font-family: "konexy";
+  src: url("../fontes/konexy.woff")
+}
+
+
+@font-face {
+  font-family: "montse";
+  src: url("../fontes/montse.woff")
+}

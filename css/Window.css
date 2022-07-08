@@ -1,0 +1,117 @@
+#Window{
+  position: fixed;
+  height: 100%;
+  width: 0%;
+  top: 0px;
+  left: 0px;
+  background: transparent;
+  backdrop-filter: blur(3px);
+  z-index: 2;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+#Window article{
+  background: #FFFFFF;
+  height: 180px;
+  width: 300px;
+  max-width: 300px;
+  min-width: 300px;
+  padding: 5px;
+  box-shadow: 0px 0px 20px #00000060;
+  border-radius: 2px;
+  z-index: 0;
+  opacity: 0;
+  transition: .8s .5s !important;
+  box-shadow: inset 0px 0px 5px #00000010, 0px 0px 10px #00000020;
+}
+
+#Window article h3{
+  height: 20px;
+  font-family: konexy;
+  letter-spacing: 2px;
+  width: 90%;
+  background: #FFFFFF50;
+  color: #000000;
+  display: inline-block;
+  margin: 5px 0px;
+}
+
+#Window article p{
+  height: 100px;
+  width: 95%;
+  color: #161529;
+  text-shadow: 0px 0px 0px #161529;
+  padding: 5px;
+  margin: auto;
+  font-family: basic;
+  font-weight: 500;
+  letter-spacing: 2px;
+  word-spacing: 3px;
+  border-radius: 1px;
+}
+
+#Window article button{
+  padding: 12px 24px;
+  font-family: konexy;
+  letter-spacing: 2px;
+  background: #161529;
+  color: #45AC8C;
+  border: none;
+  border-radius: 1px;
+  font-size: .6rem;
+  margin: 5px;
+  display: inline-block;
+  transform: translate(30px,0%);
+  transition: .3s !important;
+  width: 120px;
+  max-width: 120px;
+  min-width: 120px;
+}
+
+#Window article button:hover{
+  color: #FFFFFF;
+}
+
+#Window article button:last-child{
+  transform: translate(28px,0%);
+}
+
+#Window #Confirm {
+  transform: translate(0px,100%);
+}
+
+#Window #Alert button{
+  transform: translate(157.5px,0px);
+}
+
+#Window #Alert{
+  transform: translate(0px,0%);
+}
+
+#Window #Prompt{
+  transform: translate(0%,-100%);
+}
+
+#Window article input{
+  width: 90%;
+  height: 30px;
+  border-radius: 30px;
+  border: 1px solid #45AC8C;
+  padding: 0px 9px;
+  letter-spacing: 2px;
+  font-family: basic;
+  font-weight: 500;
+  text-shadow: 0px 0px 0px #000000;
+  font-style: 1rem;
+  text-decoration: none;
+  margin: 5px;
+  color: #161529;
+}
+
+#Window #Prompt  button{
+  transform: translate(157px,61px);
+}

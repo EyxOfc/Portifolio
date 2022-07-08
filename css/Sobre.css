@@ -1,0 +1,163 @@
+#Sobre{
+  height: 900px;
+  background: #161529;
+  width: 100%;
+  padding: 65px 0px 5px 0px;
+}
+
+#Sobre main{
+  width: 100%;
+  max-width: 600px;
+  min-width: 300px;
+  background: transparent;
+  height: 100%;
+  margin: 0px auto;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+#Sobre main #Sobre-Servico{
+  height: 170px;
+  width: 95%;
+  background: transparent;
+  margin: 10px 0px;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+#Sobre main #Sobre-Servico p{
+  margin: 5px 0px;
+  font-family: basic;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+  font-weight: 500;
+  text-shadow: 0px 0px .1px #000000;
+  font-size: 1.1rem;
+  color: #FFFFFF;
+}
+
+#AnimadoCodigo:before{
+  content: "Eu sou";
+}
+
+#Sobre main #Sobre-Servico h3{
+  font-family: konexy;
+  letter-spacing: 2.5px;
+  margin: 5px 0px;
+  font-size: 1.8rem;
+  color: #FFFFFF;
+}
+
+#Sobre main #Link{
+  height: 250px;
+  width: 80%;
+  min-width: 310px;
+  max-width: 500px;
+  background: transparent;
+  margin: 10px 0px;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}
+
+#Sobre main #Link a{
+  background: #FFFFFF;
+  height: 50px;
+  display: block;
+  font-family: konexy;
+  color: #000000;
+  text-decoration: none;
+  letter-spacing: 2px;
+  text-transform: capitalize;
+  width: 160px;
+  margin: 5px;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  position: relative;
+  z-index: 1;
+  border: none;
+  border-radius: 1px;
+}
+
+#Sobre main #Link a:after{
+  content: "";
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  height: 100%;
+  width: 100%;
+  background: #45AC8C;
+  transform: scaleX(0);
+  transition: .3s;
+  transition: transform 250ms ease-in-out;
+  transform-origin: left;
+  
+}
+
+#Sobre main #Link a:hover:after{
+  transform: scaleX(1);
+  transform-origin: right;
+  z-index: -1;
+}
+
+#Sobre main #Sobre-Mim{
+  height: 200px;
+  width: 80%;
+  min-width: 310px;
+  max-width: 500px;
+  background: transparent;
+  margin: 10px 0px;
+  padding: 5px;
+}
+
+#Sobre main #Sobre-Mim h3{
+  font-family: konexy;
+  letter-spacing: 3px;
+  color: #FFFFFF;
+  text-transform: capitalize;
+}
+
+#Sobre main #Sobre-Mim p{
+  background: transparent;
+  padding: 5px;
+  text-indent: 10px;
+  font-family: basic;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+  font-weight: 500;
+  text-shadow: 0px 0px .1px #000000;
+  color: #FFFFFF;
+  text-align: left;
+}
+
+
+@media(max-width: 480px){
+#Sobre main #Sobre-Servico{
+  zoom: .85;
+}
+
+#Sobre main #Link{
+  zoom: .85;
+}
+
+#Sobre main #Sobre-Mim{
+  zoom: .85;
+}
+
+#Sobre{
+  height: 750px;
+}
+}
+
+@media(min-width: 1024px){
+}

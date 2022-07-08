@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>React</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body translate="no">
+  
+  <section id="Links">
+    <a href="#componentes">componentes</a>
+    <a href="#props">props</a>
+  </section>
+  
+  <section class="Fundamento" id="componentes">
+    <h2>componentes</h2>
+    <h3>
+      <span class="red">function</span> <span class="green">Hello()</span><span class="red">{</span><br>
+      <span class="roxo">return(</span><br>
+      <span class="cinza">&lt;&gt;</span><br>
+      <span class="cinza">&lt;<span class="vinho">main</span>&gt;&lt;<span class="vinho">/main</span>&gt;<br></span>
+      <span class="cinza">&lt;/&gt;</span><br>
+      <span class="roxo">)</span><br>
+      <span class="red">}</span>
+    </h3>
+    
+    <p>
+      criamos um componente chamado Hello, e ela retorna tudo que estiver em return.
+    </p>
+    <p>para compartilhar o componente, devemos adicionar outro codigo no final do arquivo JavaScript.</p>
+    
+    <h3>
+      <span class="red">export default</span> <span class="green">Hello</span> <span class="cinza">;</span>
+    </h3>
+    
+    <p>agora nosso componente pode ser compartilhado e ultilizado.</p>
+    <p>para adicionar o css do componente, devemos criar o arquivo css na mesma pasta com o mesmo nome do arquivo JavaScript mas mudar o tipo do arquivo de js para css, logo após isto devemos adicionar um codigo no começo do arquivo JavaScript.</p>
+    
+    <h3>
+      <span class="red">import</span> <span class="orange">"./Comp.css"</span> <span class="cinza">;</span>
+    </h3>
+    
+    <p>
+      para importar um componente é facil, no inicio do código de onde o componente será importado, colocaremos o seguinte.
+    </p>
+    
+    <h3>
+      <span class="red">import</span> <span class="green">Hello</span> <span class="red">from</span> <span class="orange">"./Hello"</span> <span class="cinza">;</span>
+    </h3>
+    
+    <p>
+      agora importamos o componente Hello
+      </p>
+      
+  </section>
+  
+  <section class="Fundamento" id="props">
+    <h2>props</h2>
+    
+    <h3>
+      <span class="cinza">&lt;</span><span class="green">Hello</span> <span class="blue">Texto</span><span class="cinza">=</span><span class="orange">"Hello Word"</span><span class="cinza">/&gt;</span>
+    </h3>
+    
+    <p>aqui, ultilizamos o componente Hello, e ele tem um atributo chamado Texto, ele é uma props.</p>
+    
+    <h3>
+      <span class="red">function</span> <span class="green">Hello(<span class="blue">props</span>)</span><span class="red">{</span><br>
+      <span class="roxo">return(</span><br>
+      <span class="cinza">&lt;&gt;</span><br>
+      <span class="cinza">&lt;<span class="vinho">main</span>&gt; <span class="red">{<span class="orange">props.Texto</span>}</span> &lt;<span class="vinho">/main</span>&gt;<br></span>
+      <span class="cinza">&lt;/&gt;</span><br>
+      <span class="roxo">)</span><br>
+      <span class="red">}</span>
+    </h3>
+    
+    <p>o componente Hello recebe como argumento a prop, e o componente retornará o codigo descrito.</p>
+    
+    
+  </section>
+
+</body>
+
+</html>

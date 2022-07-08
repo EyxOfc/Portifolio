@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Css</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body translate="no">
+  
+  <section id="Links">
+    <a href="#background">background</a>
+    <a href="#border">border</a>
+    <a href="#margin">margin</a>
+    <a href="#padding">padding</a>
+    <a href="#text">text</a>
+  </section>
+  
+  <section class="Fundamento" id="background">
+    <h2>background</h2>
+    
+    <h3>background-color: cor;</h3>
+    <p>faz com que você defina a <span class="blue">cor de fundo</span>.</p>
+    
+    <h3>background-image: url("imagem")</h3>
+    <p>faz com que você <span class="blue">defina uma imagem de fundo</span>.</p>
+    
+    <h3>background-repeat:
+    no-repeat /
+    repeat /
+    repeat-x /
+    repeat-y.
+    </h3>
+    <p>não <span class="blue">repete a imagem de fundo</span> / repete a imagem de fundo / repete no eixo em direção a linha / repete no eixo em direção a coluna.</p>
+    
+    <h3>background-position: num% num%;</h3>
+    <p><span class="blue">posiciona a imagem</span> conforme os valores em porcentagem.</p>
+    
+    <h3>background-attachment: fixed / scroll</h3>
+    <p>a <span class="blue">imagem de fundo irá ficar</span> parada / a imagem de fundo rolará com a tela.</p>
+    
+    <h3>background-clip: border-box / padding-box / content-box;</h3>
+    <p>o <span class="blue">background ira até</span> a borda / o background irá ate o padding / o background irá até o conteúdo.</p>
+    
+    <h3>background-size: contain / cover / numpx;</h3>
+    <p>o <span class="blue">tamanho da imagem de fundo</span> ficará ele todo, sem cortes / ele ficará ele todo com cortes / baseado em seu valor em px.</p>
+  </section>
+  
+  <section class="Fundamento" id="border">
+    <h2>border</h2>
+    <h3>border-style: dotted / dashed / solid / double / hidden;</h3>
+    <p><span class="blue">defina a borda do elemento</span> pontilhado / tracejado / solido /  dubla / invisível.</p>
+    
+    <h3>border-width: numpx;</h3>
+    <p><span class="blue">define a largura da borda</span> baseada em numpx.</p>
+    
+    <h3>border-color: cor;</h3>
+    <p>dá uma <span class="blue">cor para a borda</span>.</p>
+    
+    <h3>border: border-width border-style border-color;</h3>
+    <p>é uma <span class="blue">forma abravida</span> de border, deve ser colocado os valores nessa ordem.</p>
+    
+  </section>
+  
+  <section class="Fundamento" id="margin">
+    <h2>margin</h2>
+    <h3>margin-top: numpx;</h3>
+    <p>é o espaçamento do elemento ao topo baseado em numpx.</p>
+    <h3>margin-right: numpx;</h3>
+    <p>é o espaçamento do elemento a direita baseado em numpx.</p>
+    <h3>margin-bottom: numpx;</h3>
+    <p>é o espaçamento do elemento a baixo baseado em numpx.</p>
+    <h3>margin-left: numpx;</h3>
+    <p>é o espaçamento do elemento a esquerda baseado em numpx.</p>
+    <h3>margin: margin-top margin-right margin-bottom margin-left;</h3>
+    <p>é uma <span class="blue">simplificação da propriedade margin</span>.</p>
+  </section>
+  
+  <section class="Fundamento" id="padding">
+    <h2>padding</h2>
+    <h3>padding-top: numpx;</h3>
+    <p>é o espaçamento do conteúdo até a lateral do topo baseado em numpx.</p>
+    <h3>padding-right: numpx;</h3>
+    <p>é o espaçamento do conteúdo até a lateral da direita baseado em numpx.</p>
+    <h3>padding-bottom: numpx;</h3>
+    <p>é o espaçamento do conteúdo até a lateral de baixo baseado em numpx.</p>
+    <h3>padding-left: numpx;</h3>
+    <p>é o espaçamento do conteúdo até a lateral da esquerda baseado em numpx.</p>
+    <h3>padding: padding-top padding-right padding-bottom padding-left;</h3>
+    <p>é uma <span class="blue">simplificação da propriedade padding</span>.</p>
+  </section>
+  
+  <section class="Fundamento" id="text">
+    <h2>text</h2>
+    <h3>text-align: left / center / right / justify;</h3>
+    <p>deixa o <span class="blue">texto em certa posição</span>, deixa a esquerda / deixa ao centro / deixa a direita / deixa ele livre.</p>
+    <h3>text-align-last: right / center / justify;</h3>
+    <p>deixa a <span class="blue">última linha do texto a posição</span> á direita / ao centro / a esquerda.</p>
+    <h3>unicode-bidi: normal / bidi-override;</h3>
+    <p>deixa o <spa class="blue"> texto na ordem</spa> certa / deixa o texto na ordem contraria.</p>
+    <h3>direction: rtl / ltr;</h3>
+    <p>a <span class="blue">direção do texto</span> vai da direita pra esquerda / vai da esquerda pra direita.</p>
+    <h3>text-decoration-color: color;</h3>
+    <p>é a <span class="blue">cor da decoração de texto</span>.</p>
+    <h3>text-decoration-line: none / underline / overline / line-through;</h3>
+    <p>o <span class="blue">texto fica com linha</span> nenhuma nele / o texto fica com linha em baixo dele / o texto fica com linha em cima dele / o texto fica com linha no meio dele.</p>
+    <h3>text-decoration-style: solid / double / dotted / dashed / wavy;</h3>
+    <p>o <span class="blue">estilo da linha</span> é reta / é dupla / pontilhada / pontilhada e reta / ondulada.</p>
+    <h3>text-decoration-thickness: numpx;</h3>
+    <p><span class="blue">é a grossura da decoração</span> baseado em numox.</p>
+    <h3>text-transform: none / capitalize / uppercase / lowercase;</h3>
+    <p>a <span class="blue">palavra fica</span> normal / a primeira letra da palavra fica maiúscula / a palavra toda fica maiúscula / a palavra toda fica minúscula.</p>
+    <h3>text-indent: numpx;</h3>
+    <p>o <span class="blue">recuo da primeira linha</span> do texto baseado em px.</p>
+    <h3>letter-spacing: numpx;</h3>
+    <p>é o <span class="blue">espaçamento da letra</span> baseado em px.</p>
+    <h3>line-height: num;</h3>
+    <p>propriedade é usada para especificar o <span class="blue">espaço entre as linhas</span>.</p>
+    <h3>word-spacing: numpx;</h3>
+    <p>o <span class="blue">espaçamento da palavra</span> baseado em px.</p>
+    <h3>white-space: normal / nowrap;</h3>
+    <p>o <span class="blue">texto</span> quebra / o texto não quebra.</p>
+  </section>
+  
+  <section class="Fundamento" id="fontes">
+    <h2>fontes</h2>
+    <h3>font-family: "serif";</h3>
+    <p>o <span class="blue">nome da fonte</span> será serif.</p>
+    <h3>font-style: normal / italic / oblique;</h3>
+    <p>o <span class="blue">estilo do texto</span> fica normal / fica em itálico / fica praticamente em italico mas é leve o peso.</p>
+  </section>
+  
+</body>
+
+</html>
