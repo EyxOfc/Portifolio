@@ -1,7 +1,7 @@
 #Window{
   position: fixed;
   height: 100%;
-  width: 0%;
+  width: 0% !important;
   top: 0px;
   left: 0px;
   background: transparent;
