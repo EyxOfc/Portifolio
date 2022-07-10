@@ -1,16 +1,11 @@
 import Alertar from './Alert.js';
 import Prompting from './Prompt.js';
+import Confirmar from './Confirm.js';
 
 var Usuario = {
-  Nome: ''
+  Nome: 'nm'
 }
 
-if(Cookies.get('Usuario.Nome') === undefined){
-  Prompting(Usuario, 'Nome', () => {
-    Alertar('Aviso', `Ola usuário ${Usuario.Nome}, este site usa Cookies!`);
-    Cookies.set('Usuario.Nome', Usuario.Nome);
-  });
-}else{
-  Usuario.Nome = Cookies.get('Usuario.Nome');
-  Alertar('Aviso',`Ola usuário ${Usuario.Nome}, este site usa Cookies!`);
-}
+Alertar('Aviso','Este site usa cookies',()=>{
+  console.log('kk')
+})

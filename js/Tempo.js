@@ -1,9 +1,3 @@
-
-
-
-
-
-
 function Tempo(){
   
   let Tmp = new Date;

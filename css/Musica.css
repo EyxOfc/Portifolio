@@ -22,6 +22,22 @@
   background-size: 200%;
   animation: subirdescer 10s ease-in-out infinite;
   border: 3px solid #FFFFFF;
+  position: relative;
+}
+
+#Musica #capa:after{
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: transparent;
+  backdrop-filter: blur(0px);
+  transition: .3s !important;
+
+}
+
+#Musica #capa:hover:after{
+  backdrop-filter: blur(1px);
 }
 
 #Musica #player{
