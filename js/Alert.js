@@ -30,7 +30,7 @@ function Alertar(H3,P,Funcao){
 function AlertarOff(Funcao){
   
   if(Funcao != ''){
-    setTimeout(Funcao,500);
+    setTimeout(Funcao,1500);
   }
   
   Window.style.width = '0%';

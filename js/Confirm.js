@@ -40,7 +40,7 @@ function Confirmar(H3,P,FuncaoTrue,FuncaoFalse){
 function ConfirmarOff(Valor,Funcao){
   
   if(Funcao != ''){
-    setTimeout(Funcao,500)
+    setTimeout(Funcao,1500)
   }
   
   Confirm.style.opacity = '0';

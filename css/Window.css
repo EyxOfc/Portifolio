@@ -25,7 +25,7 @@
   border-radius: 2px;
   z-index: 0;
   opacity: 0;
-  transition: .8s .5s !important;
+  transition: .8s .1s !important;
   box-shadow: inset 0px 0px 5px #00000010, 0px 0px 10px #00000020;
 }
 
