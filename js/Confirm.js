@@ -5,7 +5,7 @@ var p = document.createElement('p');
 var button = document.createElement('button');
 var button2 = document.createElement('button');
 Confirm.id = 'Confirm';
-Confirm.className = 'after';
+h3.className = 'after';
 h3.innerHTML = 'h3';
 p.innerHTML = 'p';
 button.innerHTML = 'discordo';
@@ -39,7 +39,10 @@ function Confirmar(H3,P,FuncaoTrue,FuncaoFalse){
 
 function ConfirmarOff(Valor,Funcao){
   
-  setTimeout(Funcao,1000);
+  if(Funcao != ''){
+    setTimeout(Funcao,500)
+  }
+  
   Confirm.style.opacity = '0';
   Confirm.style.zIndex = '0';
   

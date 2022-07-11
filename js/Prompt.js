@@ -34,7 +34,7 @@ function PromptingOff(Valor,Objeto,Propriedade,Funcao){
     }
   }
   
-  setTimeout(Funcao,1000);
+  setTimeout(Funcao,500);
   
   Prompt.style.opacity = '0';
   Prompt.style.zIndex = '0';
