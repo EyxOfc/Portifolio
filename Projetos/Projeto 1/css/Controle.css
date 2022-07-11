@@ -1,0 +1,61 @@
+#Controle {
+  height: 200px;
+  width: 100%;
+  max-width: 300px;
+  min-width: 300px;
+  background: #FFFFFF;
+  zoom: 1.5;
+  margin: 5px 0px !important;
+  position: relative;
+}
+
+#Controle button{
+  height: 40px;
+  width: 40px;
+  border: none;
+  border-radius: 0%;
+  background: #161529;
+  color: #FFFFFF;
+  font-size: .5rem;
+  margin: 5px;
+  position: absolute;
+}
+
+.topo{
+  top: 0px;
+  left: 50%;
+  transform: translate(-50%,0%);
+}
+
+.baixo{
+  bottom: 0px;
+  left: 50%;
+  transform: translate(-50%,0%);
+}
+
+.esquerda{
+  left: 0px;
+  top: 50%;
+}
+
+@media (max-width: 480px){
+body #Controle {
+  height: 200px;
+  width: 100%;
+  max-width: 300px;
+  min-width: 300px;
+  background: #FFFFFF;
+  zoom: 1;
+}
+}
+
+@media (min-width: 769px){
+body #Controle {
+  height: 200px;
+  width: 100%;
+  max-width: 300px;
+  min-width: 300px;
+  background: #FFFFFF;
+  zoom: 2;
+}
+}
