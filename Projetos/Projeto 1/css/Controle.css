@@ -1,5 +1,7 @@
 #Controle {
   height: 200px;
+  max-height: 200px;
+  min-height: 200px;
   width: 100%;
   max-width: 300px;
   min-width: 300px;
@@ -7,14 +9,15 @@
   zoom: 1.5;
   margin: 5px 0px !important;
   position: relative;
+  padding: 5px;
 }
 
 #Controle button{
-  height: 40px;
-  width: 40px;
+  height: 80px;
+  width: 80px;
   border: none;
   border-radius: 0%;
-  background: #161529;
+  background: transparent;
   color: #FFFFFF;
   font-size: .5rem;
   margin: 5px;
@@ -36,6 +39,19 @@
 .esquerda{
   left: 0px;
   top: 50%;
+  transform: translate(0%,-50%);
+}
+
+.direita{
+  right: 0px;
+  top: 50%;
+  transform: translate(0%,-50%);
+}
+
+#Controle button img{
+  height: 40px;
+  width: auto;
+  filter: drop-shadow(2px 2px 2px #00000050);
 }
 
 @media (max-width: 480px){

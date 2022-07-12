@@ -1,5 +1,7 @@
 #Game {
   height: 200px;
+  max-height: 200px;
+  min-height: 200px;
   width: 100%;
   max-width: 300px;
   min-width: 300px;
