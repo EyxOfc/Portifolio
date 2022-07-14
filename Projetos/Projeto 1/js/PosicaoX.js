@@ -14,5 +14,6 @@ function GerarPosicaoX(Xmin,Xmax,Objeto,Propriedade){
   return `${Objeto[Propriedade]}px`
 }
 
-
 Global.Funcoes.GerarPosicaoX = GerarPosicaoX;
+
+export default GerarPosicaoX;

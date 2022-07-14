@@ -1,8 +1,8 @@
 import Global from './Global.js';
 
 
-function GerarPosicaoY(Xmin,Xmax,Objeto,Propriedade){
-  let Maximo = Xmax / 10;
+function GerarPosicaoY(Ymin,Ymax,Objeto,Propriedade){
+  let Maximo = Ymax / 10;
   let Numero = (Math.random() * Maximo).toFixed(0);
   if(Numero > Maximo){
     let Numero = (Math.random() * Maximo).toFixed(0);
@@ -14,5 +14,6 @@ function GerarPosicaoY(Xmin,Xmax,Objeto,Propriedade){
   return `${Objeto[Propriedade]}px`
 }
 
-
 Global.Funcoes.GerarPosicaoY = GerarPosicaoY;
+
+export default GerarPosicaoY;
