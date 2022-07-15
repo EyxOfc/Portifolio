@@ -4,11 +4,20 @@ var Global = {
     x: 0,
     y: 0
   },
+  Snake: {
+    x: 0,
+    y: 0
+  },
   Funcoes: {
     AdicionarBotoes: '',
     RemoverBotoes: '',
     GerarPosicaoX: '',
-    GerarPosicaoY: ''
+    GerarPosicaoY: '',
+    VerificarMaca: ''
+  },
+  Game: {
+    Segundos: 10,
+    Pontos: 0
   }
 }
 

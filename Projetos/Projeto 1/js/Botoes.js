@@ -20,36 +20,47 @@ function RemoverBotoes(){
 }
 
 function Xmais(){
-  Global.Maca.x += 10;
-  console.log(Global.Maca.x);
-  if (Global.Maca.x === Number('300')) {
-  Global.Maca.x = 0;
+  Global.Snake.x += 10;
+  if (Global.Snake.x === Number('300')) {
+  Global.Snake.x = 0;
   }
-  window.document.querySelector('.Maca').style.left = Global.Maca.x + 'px';
+  setTimeout(()=>{
+    Global.Funcoes.VerificarMaca();
+  },0)
+  window.document.querySelector('.Snake').style.left = Global.Snake.x + 'px';
 }
 
 function Xmenos(){
-  Global.Maca.x -= 10;
-  if (Global.Maca.x === Number('-20')) {
-  Global.Maca.x = 280;
+  Global.Snake.x -= 10;
+  if (Global.Snake.x === Number('-20')) {
+  Global.Snake.x = 280;
   }
-  window.document.querySelector('.Maca').style.left = Global.Maca.x + 'px';
+  setTimeout(() => {
+    Global.Funcoes.VerificarMaca();
+  }, 0)
+  window.document.querySelector('.Snake').style.left = Global.Snake.x + 'px';
 }
 
 function Ymais(){
-  Global.Maca.y += 10;
-  if (Global.Maca.y === Number('200')) {
-  Global.Maca.y = 0;
+  Global.Snake.y += 10;
+  if (Global.Snake.y === Number('200')) {
+  Global.Snake.y = 0;
   }
-  window.document.querySelector('.Maca').style.top = Global.Maca.y + 'px';
+  setTimeout(() => {
+    Global.Funcoes.VerificarMaca();
+  }, 0)
+  window.document.querySelector('.Snake').style.top = Global.Snake.y + 'px';
 }
 
 function Ymenos(){
-  Global.Maca.y -= 10;
-  if(Global.Maca.y === Number('-20')){
-  Global.Maca.y =  180;
+  Global.Snake.y -= 10;
+  if(Global.Snake.y === Number('-20')){
+  Global.Snake.y =  180;
   }
-  window.document.querySelector('.Maca').style.top = Global.Maca.y + 'px';
+  setTimeout(() => {
+    Global.Funcoes.VerificarMaca();
+  }, 0)
+  window.document.querySelector('.Snake').style.top = Global.Snake.y + 'px';
 }
 
 Global.Funcoes.AdicionarBotoes = AdicionarBotoes;
