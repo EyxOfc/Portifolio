@@ -65,5 +65,3 @@ function Ymenos(){
 
 Global.Funcoes.AdicionarBotoes = AdicionarBotoes;
 Global.Funcoes.RemoverBotoes = RemoverBotoes;
-
-AdicionarBotoes();

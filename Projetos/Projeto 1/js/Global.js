@@ -13,7 +13,10 @@ var Global = {
     RemoverBotoes: '',
     GerarPosicaoX: '',
     GerarPosicaoY: '',
-    VerificarMaca: ''
+    VerificarMaca: '',
+    Cronometro: '',
+    Game: '',
+    GameOff: ''
   },
   Game: {
     Segundos: 10,
