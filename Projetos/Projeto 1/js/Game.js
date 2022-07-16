@@ -8,6 +8,7 @@ function Game(){
     Global.Funcoes.AdicionarBotoes();
     Global.Funcoes.Cronometro();
     Global.Game.Segundos = 10;
+    Global.Game.Pontos = 0;
   },0);
   Iniciar.removeEventListener('click',Game);
 }
