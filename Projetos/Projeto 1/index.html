@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="./css/Snake.css">
   <link rel="stylesheet" href="./css/Maca.css">
   <link rel="stylesheet" href="./css/Controle.css">
+  <script src="https://cdn.jsdelivr.net/npm/js-cookie@3.0.1/dist/js.cookie.min.js" ></script>
 </head>
 
 <style>
@@ -20,7 +21,10 @@
   <section id="Game">
     <span class="Snake"></span>
     <span class="Maca"></span>
+    <span id="pontos">0 pontos</span>
   </section>
+  
+  <button type="submit" id="iniciar"><img src="./img/play.png" alt=""></button>
   
   <section id="Controle">
     <button type="submit" class="topo"><img src="./img/cima.png" alt=""></button>
@@ -39,6 +43,7 @@
   <script src="./js/Verificar.js" type="module"></script>
   <script src="./js/Cronometro.js" type="module"></script>
   <script src="./js/Game.js" type="module"></script>
+  <script src="./js/Pontos.js" type="module"></script>
 </body>
 
 </html>

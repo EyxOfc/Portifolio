@@ -18,3 +18,5 @@ function GameOff(){
 
 Global.Funcoes.Game = Game;
 Global.Funcoes.GameOff = GameOff;
+
+Game();

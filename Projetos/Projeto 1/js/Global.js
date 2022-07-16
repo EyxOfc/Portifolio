@@ -1,5 +1,5 @@
 var Global = {
-  Usuario: '',
+  Usuario: 'Usuario',
   Maca: {
     x: 0,
     y: 0
@@ -16,12 +16,17 @@ var Global = {
     VerificarMaca: '',
     Cronometro: '',
     Game: '',
-    GameOff: ''
+    GameOff: '',
+    Pontos: ''
   },
   Game: {
     Segundos: 10,
     Pontos: 0
   }
+}
+
+if(Cookies.get('Usuario.Nome') != undefined){
+  Global.Usuario = Cookies.get('Usuario.Nome');
 }
 
 export default Global;

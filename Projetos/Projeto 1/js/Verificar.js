@@ -14,7 +14,14 @@ function VerificarMaca(){
     Global.Maca.y = y;
     
     document.querySelector('.Maca').style.left = `${x}px`;
-    document.querySelector('.Maca').style.top = `${y}px`
+    document.querySelector('.Maca').style.top = `${y}px`;
+    
+    Global.Game.Pontos += 1;
+    Global.Game.Segundos += 2;
+    setTimeout(()=>{
+      Global.Funcoes.Pontos();
+    },0)
+    
   }
 }
 

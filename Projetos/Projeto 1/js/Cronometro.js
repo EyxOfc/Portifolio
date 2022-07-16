@@ -9,7 +9,6 @@ function Cronometro(){
     Global.Game.Segundos -= 1;
     setTimeout(Cronometro,1000);
   }
-  console.log(Global.Game.Segundos);
 }
 
 
