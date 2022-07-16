@@ -28,6 +28,18 @@ body{
   overflow: hidden;
 }
 
+#iniciar{
+  height: 50px;
+  width: 50px;
+  animation: "rtc" 5s ;
+}
+
+#iniciar img{
+  height: 40px;
+  width: 40px;
+}
+
+
 @keyframes Login {
   0%{
     width: 0;
