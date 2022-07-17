@@ -9,6 +9,7 @@ function Game(){
     Global.Funcoes.Cronometro();
     Global.Game.Segundos = 10;
     Global.Game.Pontos = 0;
+    document.querySelector('#pontos').innerHTML = `${Global.Usuario}: ${Global.Game.Pontos}`;
   },0);
   Iniciar.removeEventListener('click',Game);
 }

@@ -31,7 +31,12 @@ body{
 #iniciar{
   height: 50px;
   width: 50px;
-  animation: "rtc" 5s ;
+  border-radius: 50%;
+  border: none;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
 }
 
 #iniciar img{
