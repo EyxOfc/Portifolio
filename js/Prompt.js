@@ -1,3 +1,5 @@
+import Global from './Global.js';
+
 var Window = document.querySelector('#Window');
 var Prompt = document.createElement('article');
 var h3 = document.createElement('h3');
@@ -42,4 +44,6 @@ function PromptingOff(Valor,Objeto,Propriedade,Funcao){
   
 }
 
+Global.Funcoes.Prompting = Prompting;
+Global.Funcoes.PromptingOff = PromptingOff;
 export default Prompting;

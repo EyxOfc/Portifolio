@@ -1,3 +1,5 @@
+import Global from './Global.js';
+
 var Textos = [
   ' Desenvolvedor Front End e UI & UX Designer.',
   ' Estudante de programação. '
@@ -47,3 +49,6 @@ function Desescrever(){
   }
   
 }
+
+Global.Funcoes.Escrever = Escrever;
+Global.Funcoes.Desescrever = Desescrever;

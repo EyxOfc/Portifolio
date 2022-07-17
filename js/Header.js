@@ -1,3 +1,5 @@
+import Global from './Global.js';
+
 var html = document.querySelector('html');
 var header = document.querySelector('header');
 var Anterior = 0;
@@ -18,3 +20,5 @@ function Scroll(){
 }
 
 window.addEventListener('scroll',Scroll);
+
+Global.Funcoes.Scroll = Scroll;

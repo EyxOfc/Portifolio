@@ -1,3 +1,5 @@
+import Global from './Global.js';
+
 var BotaoOpen = document.querySelector('#open');
 var Aba = document.querySelector('#Aba');
 BotaoOpen.addEventListener('click',On);
@@ -38,3 +40,6 @@ function Off(){
 }
 
 window.addEventListener('scroll',Off)
+
+Global.Funcoes.On = On;
+Global.Funcoes.Off = Off;

@@ -1,3 +1,5 @@
+import Global from './Global.js';
+
 var Window = document.querySelector('#Window');
 var Alert = document.createElement('article');
 var h3 = document.createElement('h3');
@@ -37,5 +39,8 @@ function AlertarOff(Funcao){
   Alert.style.opacity = '0';
   Alert.style.zIndex = '0';
 }
+
+Global.Funcoes.Alertar = Alertar;;
+Global.Funcoes.AlertarOff = AlertarOff;
 
 export default Alertar;

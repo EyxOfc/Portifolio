@@ -1,3 +1,5 @@
+import Global from './Global.js';
+
 var Window = document.querySelector('#Window');
 var Confirm = document.createElement('article');
 var h3 = document.createElement('h3');
@@ -50,4 +52,6 @@ function ConfirmarOff(Valor,Funcao){
 }
 
 
+Global.Funcoes.Confirmar = Confirmar;
+Global.Funcoes.ConfirmarOff = ConfirmarOff;
 export default Confirmar;

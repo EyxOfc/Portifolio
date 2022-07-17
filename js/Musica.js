@@ -1,3 +1,5 @@
+import Global from './Global.js';
+
 var e = document.querySelector('#player').childNodes[1];
 var d = document.querySelector('#player').childNodes[5];
 var audio = document.querySelector('audio');
@@ -42,6 +44,7 @@ d.addEventListener('click',()=>{
 
 
 start.addEventListener('click',Despause);
+
 function Despause(){
   start.src = './img/pause.png';
   start.addEventListener('click',Pause);
@@ -56,3 +59,5 @@ function Pause(){
   audio.pause();
 }
 
+Global.Funcoes.Despause = Despause;
+Global.Funcoes.Pause = Pause;

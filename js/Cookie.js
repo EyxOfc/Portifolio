@@ -1,3 +1,4 @@
+import Global from './Global.js';
 import Alertar from './Alert.js';
 import Prompting from './Prompt.js';
 import Confirmar from './Confirm.js';
@@ -25,3 +26,5 @@ Alertar('Aviso',`${Usuario.Nome} Este site usa cookies.`,()=>{
   }
   
 });
+
+Global.Cookie = Usuario;

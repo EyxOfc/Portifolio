@@ -1,3 +1,5 @@
+import Global from './Global.js';
+
 function Tempo(){
   
   let Tmp = new Date;
@@ -21,3 +23,5 @@ function Tempo(){
 setInterval(Tempo,1000);
 
 Tempo();
+
+Global.Funcoes.Tempo = Tempo;
