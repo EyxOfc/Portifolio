@@ -13,7 +13,9 @@ var Global = {
     Alertar: '',
     AlertarOff: '',
     Despause: '',
-    Pause: ''
+    Pause: '',
+    WindowOn: '',
+    WindowOff: ''
   },
   Cookie: ''
 }

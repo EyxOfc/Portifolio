@@ -24,7 +24,7 @@ function Confirmar(H3,P,FuncaoTrue,FuncaoFalse){
   Confirm.style.opacity = '1';
   Confirm.style.zIndex = '2';
   
-  Window.style.width = '100%';
+  Global.Funcoes.WindowOn();
   
   h3.innerHTML = H3;
   p.innerHTML = P;
@@ -42,13 +42,13 @@ function Confirmar(H3,P,FuncaoTrue,FuncaoFalse){
 function ConfirmarOff(Valor,Funcao){
   
   if(Funcao != ''){
-    setTimeout(Funcao,1500)
+    setTimeout(Funcao,3000)
   }
   
   Confirm.style.opacity = '0';
   Confirm.style.zIndex = '0';
   
-  Window.style.width = '0%';
+  Global.Funcoes.WindowOff();
 }
 
 

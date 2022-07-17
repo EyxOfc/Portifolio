@@ -22,7 +22,8 @@ function Alertar(H3,P,Funcao){
   
   Alert.style.opacity = '1';
   Alert.style.zIndex = '2';
-  Window.style.width = '100%';
+  
+  Global.Funcoes.WindowOn();
   
   button.addEventListener('click',()=>{
   AlertarOff(Funcao);
@@ -32,10 +33,10 @@ function Alertar(H3,P,Funcao){
 function AlertarOff(Funcao){
   
   if(Funcao != ''){
-    setTimeout(Funcao,1500);
+    setTimeout(Funcao,3000);
   }
   
-  Window.style.width = '0%';
+  Global.Funcoes.WindowOff();
   Alert.style.opacity = '0';
   Alert.style.zIndex = '0';
 }

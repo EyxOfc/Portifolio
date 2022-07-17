@@ -19,7 +19,7 @@ function Prompting(H3,Objeto,Propriedade,Funcao){
   Prompt.style.opacity = '1';
   Prompt.style.zIndex = '2';
   
-  Window.style.width = '100%';
+  Global.Funcoes.WindowOn();
   h3.innerHTML = H3;
   
   button.addEventListener('click',()=>{
@@ -36,11 +36,11 @@ function PromptingOff(Valor,Objeto,Propriedade,Funcao){
     }
   }
   
-  setTimeout(Funcao,1500);
+  setTimeout(Funcao,3000);
   
   Prompt.style.opacity = '0';
   Prompt.style.zIndex = '0';
-  Window.style.width = '0%';
+  Global.Funcoes.WindowOff();
   
 }
 
