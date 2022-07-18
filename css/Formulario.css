@@ -108,3 +108,22 @@
 #Formulario form button:hover{
   background: #FFFFFF05;
 }
+
+#Formulario form input[type=file]{
+  display: none;
+}
+
+#Formulario form input[type=file] + label{
+  color: #FFFFFF;
+  text-decoration: none;
+  font-family: konexy;
+  background: #00000020;
+  letter-spacing: 2px;
+  width: auto;
+  padding: 10px 30px;
+  margin: 5px 15px;
+  font-size: .5rem;
+  transition: .3s ease-in-out !important;
+  border-radius: 1px;
+  border: none;
+}
