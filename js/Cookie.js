@@ -14,7 +14,7 @@ if(Cookies.get('Usuario.Nome') != undefined){
   Confirmar('Usuario','Quer criar um usuário localmente?',
   ()=>{
     Prompting('Nome de usuário',Usuario,'Nome',()=>{
-      Cookies.set('Usuario.Nome',Usuario.Nome);
+      Cookies.set('Usuario.Nome',Usuario.Nome,{expires: 365});
       Alertar('Aviso',`${Usuario.Nome} este site usa cookies, e seja bem vindo 😃.`,'')
     })
   },
