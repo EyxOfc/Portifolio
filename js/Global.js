@@ -12,8 +12,6 @@ var Global = {
     PromptingOff: '',
     Alertar: '',
     AlertarOff: '',
-    Despause: '',
-    Pause: '',
     WindowOn: '',
     WindowOff: ''
   },
