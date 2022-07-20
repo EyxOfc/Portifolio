@@ -1,5 +1,75 @@
 #Info{
-  height: 200px;
+  height: auto;
   width: 100%;
+  background: #161529;
+  padding: 5px 0px;
+}
+
+#Info table,#Info table tbody{
+  height: auto;
+  width: 100%;
+  background: transparent;
+  padding: 0px;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+#Info table tr{
+  height: auto;
+  width: 150px;
+  background: transparent;
+  color: #FFFFFF;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  margin: 2px;
+}
+
+#Info table tr th,#Info table tr td{
+  font-family: konexy;
+  padding: 5px 2px;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  width: 100%;
+  height: 30px;
+  font-size: .8rem;
+  letter-spacing: 1px;
+}
+
+#Info table tr td{
+  padding: 5px 4px;
+  font-size: .7rem;
+}
+
+#Info table tr td a{
+  text-decoration: none;
+  color: #FFFFFF;
+  transition: .3s ease-in-out !important;
+  overflow: hidden;
+  position: relative;
+}
+
+#Info table tr td a:hover{
+  color: #45AC8C;
+  padding: 0px 15px;
+}
+
+#Info table tr td a:after{
+  position: absolute;
+  content: "";
+  display: block;
+  height: 5px;
+  width: 5px;
   background: #FFFFFF;
+  top: 50%;
+  left: 0px;
+  transform: translate(-120%,-50%);
+  transition: .3s .05s ease-in-out !important;
+}
+
+#Info table tr td a:hover:after{
+  transform: translate(6px,-50%);
 }
