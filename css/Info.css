@@ -18,7 +18,7 @@
 
 #Info table tr{
   height: auto;
-  width: 150px;
+  width: 180px;
   background: transparent;
   color: #FFFFFF;
   display: flex;
@@ -41,7 +41,7 @@
 
 #Info table tr td{
   padding: 5px 4px;
-  font-size: .7rem;
+  font-size: .6rem;
 }
 
 #Info table tr td a{
@@ -50,6 +50,7 @@
   transition: .3s ease-in-out !important;
   overflow: hidden;
   position: relative;
+  text-transform: capitalize;
 }
 
 #Info table tr td a:hover{
