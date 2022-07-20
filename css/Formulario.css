@@ -127,3 +127,7 @@
   border-radius: 1px;
   border: none;
 }
+
+#Formulario form input[type=file] + label:hover{
+  background: #FFFFFF05;
+}
