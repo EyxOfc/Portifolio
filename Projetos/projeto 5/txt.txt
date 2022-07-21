@@ -1,0 +1,53 @@
+O header deve ter os seguintes itens 
+-Logo
+-Links
+
+obs:
+Os links deve ter o modo que caso não caiba todos os links, tranforme em aba.
+
+Sobre a InterCoffee
+
+Estamos a cinco anos no mercado, sempre mantemos a educação e o respeito em nosso local,
+nossa meta no começo era deixar o cliente satisfeito e batemos ela, fazemos café com carinho e muito amor,
+ficamos gratos toda vez que cada cliente sai daqui satisfeito e alegre, sabemos que fizemos o que prometemos,
+caso não conhece a gente, por que não vir conhecer? e caso conheça, venha se alegrar.
+
+locais
+
+- 552 Vidal Park.
+- 935 Amaro lins.
+- 28 Oswaldo oscar.
+- Sidney Morata.
+
+servicos
+
+bebidas
+
+- café gelado
+- cappuccino
+- Irish coffee
+- Caffè latte
+- Café macchiato
+- Café mocha
+- Café Ristretto
+- Café Americano
+
+relatos
+
+-Michelle Castillo.
+|- Muito bom o Cappuccino de lá e a forma que nós tratam é maravilhosa.
+
+-Gustavo ribeiro.
+|- Sim, próxima vez que vir aqui, irei trazer minha família.
+
+-Elias Monteiro.
+|- Nota mil, já fui em vários Coffees, e esse superou todos em todos os sentidos.
+
+-Fernando ferreira.
+|- Top a estrutura, aconchegante e confortável, recomendo muito.
+
+-Sabrina fernandez.
+|- Estava com o dia horrível, mas o café transformou ele em um dia melhor.
+
+-Jorge Santos.
+|- Super amei este lugar.
