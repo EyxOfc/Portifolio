@@ -56,6 +56,26 @@
   z-index: 1;
 }
 
+#Sobre button{
+  padding: 5px 10px;
+  width: 80px;
+  height: 30px;
+  border: none;
+  border-radius: 3px;
+  margin: 5px 10px;
+  background: #CAA79150;
+  font-family: "Krona One";
+  letter-spacing: 1px;
+  font-size: .7rem;
+  transition: .3s .1s !important;
+  box-shadow: 0px 0px 3px #00000030;
+}
+
+#Sobre button:hover{
+  background: #000000;
+  color: #CAA791;
+}
+
 @media(max-width: 480px){
  #Sobre h1{
     zoom: .8;
