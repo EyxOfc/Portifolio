@@ -20,6 +20,7 @@
   justify-content: center;
   position: relative;
   margin: 5px;
+  border-radius: 2px;
 }
 
 #Local article .Rua-Local{
