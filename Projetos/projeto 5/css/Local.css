@@ -1,0 +1,58 @@
+#Local{
+  height: auto;
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  padding: 5px;
+}
+
+#Local article{
+  height: 200px;
+  width: 300px;
+  background: transparent;
+  overflow: hidden;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin: 5px;
+}
+
+#Local article .Rua-Local{
+  color: #000000;
+  z-index: 1;
+  font-family: "Krona One";
+  background: #CAA79180;
+  backdrop-filter: blur(8px);
+  padding: 10px 20px;
+  border-radius: 2px;
+  font-size: .8rem;
+  transition: .3s ease-in-out !important;
+  box-shadow: 0px 0px 100px #000000 ;
+  border: none;
+}
+
+#Local article img{
+  height: 200px;
+  width: 300px;
+  transition: .3s !important;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  overflow: hidden;
+}
+
+#Local article:hover img{
+  height: 240px;
+  width: 340px;
+}
+
+#Local article:hover .Rua-Local{
+  font-size: 1.2rem;
+  padding: 10px 15px;
+}
